@@ -1,0 +1,56 @@
+print("Exercici 10")
+str(prioritat)
+Critic = input("Afecta a servei critic?").lower
+Afectats = int(input("Quants afectats?")
+Alternativa = input("Hi ha alternativa?").lower
+if Afectats < 0:
+    print("NO NEGATIUS")
+else:
+    if Critic == "si" and Alternativa == "no":
+        prioritat = "Critica"
+    if 
+
+bool(acces_permes)
+if 
+
+print("Exercici 1: Afegir i modificar elements:")
+llista1 = [1, 2, 3, 4, 5]
+llista1.append(6)
+llista1.insert(2, 10)
+llista1[0] = 0
+print(llista1)
+
+print("Exercici 2:")
+llista_a = [1, 2, 3]
+llista_b = [4, 5, 6, 1, 2]
+llista_a.extend(llista_b)
+llista_a.remove(1)
+element3 = llista_a.pop(3)
+print(element3)
+llista_b.clear()
+print(llista_a)
+
+print("Exercici 3")
+llista1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+del llista1[2:5]
+print(llista1)
+
+print("Exercici 4")
+llista1 = [5, 2, 8, 1, 9, 4, 2]
+llista1.sort()
+print(llista1)
+print(llista1.count(2))
+print(7 in llista1)
+
+print("Exercici 5")
+original = [1, 2, 3]
+copia1 = original[:]
+copia2 = original.copy()
+referencia = original
+referencia[0] = 10
+print(original, copia1, copia2, referencia)
+
+print("Exercici 6")
+llista = ["Poma", "pera", "PLÀTAN", "taronja"]
+llista.sort(key = str.lower)
+print(llista)
